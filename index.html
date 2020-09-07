@@ -1,115 +1,206 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>HTML email Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>HTML email Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-         <style type="text/css">
-         	body {
-         		background-color: #7a006d5c; /* #f6f9fc */
-         		Margin: 0;
-         		padding: 0;
-         	}
-         	table {
-         		border-spacing: 0;
-         	}
-         	td {
-         		padding: 0;
-         	}
-         	img {
-         		border: 0;         	
-         	}
-         	.wrapper {
-         		width: 100%;
-         		table-layout: fixed;
-         		background-color: #f6f9fc;
-         		padding-bottom: 40px;
-         	}
-         	.webkit {
-         		max-width: 600px;
-         		background-color: #ffffff;         		
-         	}
-         	.outer {
-         		Margin: 0 auto;
-         		width: 100%;
-         		max-width: 600px;
-         		border-spacing: 0;
-         		font-family: sans-serif;
-         		/*color: #4a4a4a;*/
-         	}
+	<style type="text/css">
+		body {
+			background-color: #7a006d5c; /* #f6f9fc */
+			Margin: 0;
+			padding: 0;
+		}
+		table {
+			border-spacing: 0;
+		}
+		td {
+			padding: 0;
+		}
+		img {
+			border: 0;         	
+		}
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+			background-color: #f6f9fc;
+			padding-bottom: 40px;
+		}
+		.webkit {
+			max-width: 600px;
+			background-color: #ffffff;         		
+		}
+		.outer {
+			Margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			font-family: sans-serif;
+			/*color: #4a4a4a;*/
+		}
 
-         	@media screen and (max width 600px) {
+		.three-columns {
+			text-align: center;
+			font-size: 0;
+			padding-top: 40px;
+			padding-bottom: 30px;
+		}
 
-         	}
-         	@media screen and (max width 400px) {
+		.three-columns .column {
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+		}
 
-         	}
+		.padding {
+			padding: 15px;
+		}
 
-         </style>
-        
-    </head>
-    <body>
-    	<center class="wrapper">
-    		<div class="webkit">
-    			<table class="outer" align="center">
-    				<tr>
-    					<td>
-    						<table width="100%" style="border-spacing:0;">
-    							<tr>
-    								<td style="background-color:#388cda;padding:10px; text-align:center;">
-    									<!--  
-    									<a href="#"><img src="pexels-photo-187919.jpeg" width="180" alt="Logo" title="Logo"></a>
-    									-->
-    									
-    									<h2>Email Template</h2>
-    									
-    								</td>
-    							</tr>
+		.three-columns .content {
+			font-size: 15px;
+			line-height: 20px;
+		}
 
-    							<!-- next row -->
-    							<tr>
-    								<td>
-    									<a href="#"><img src="pexels-photo-297755.jpeg" alt="Banner" width="600"></a>
-    								</td>
-    							</tr> 		
-    						</table>
-    					</td>
-    				</tr>  
+		.column {
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+		}
 
-    				<!-- three items --> 
+		a {
+			text-decoration: none;
+			color: #388cda;
+			font-size: 14px;
+		}
 
-    				<tr>
-    					<td>
-    						<table width="100%" style="border-spacing: 0">
-    							<tr>
-    								<td class="three-columns">
-    									<table class="column">
-    										<tr>
-    											<td class="padding">
-    												<table class="content">
-    													<tr>
-    														<td>
-    															<a href=""><img src="" alt=""></a>
-    														</td>
-    													</tr>
-    												</table>
-    											</td>
-    										</tr>
-    									</table>
+		@media screen and (max width 600px) {
+
+		}
+		@media screen and (max width 400px) {
+
+		}
+
+	</style>
+
+</head>
+<body>
+	<center class="wrapper">
+		<div class="webkit">
+			<!-- main table -->
+			<table class="outer" align="center">
+				<tr>
+					<td>
+						<!-- table, logo -->
+						<table width="100%" style="border-spacing:0;">
+
+							<!-- first row of first table, logo -->
+							<tr>
+								<td style="background-color:#388cda;padding:10px;text-align:center;color:#ffffff;">
+    								 <!-- 
+    									<a href="#"><img src="img/pexels-photo-187919.jpeg" width="180" alt="Logo" title="Logo"></a>
+    								 --> 
+    								 <h2>Travel Email Template</h2> 
+    								
+
+    							</td>
+    						</tr>    							
+    					</table>
+    				</td>
+    			</tr>  
+
+    			<!-- image -->
+    			<tr>
+    				<td>
+    					<a href="#"><img src="img/pexels-photo-297755.jpeg" alt="Banner" width="600" style="max-width:100%;"></a>
+    				</td>
+    			</tr> 		
 
 
-    								</td>
-    							</tr>
-    						</table>
-    					</td>
-    				</tr>
 
 
-    			</table>
-    		</div>
-    	</center>
+
+    			<!-- three items, next row in main table --> 
+
+    			<tr>
+    				<td>
+    					<table width="100%" style="border-spacing: 0">   						
+    						<tr>
+    							<td class="three-columns">	
+    								<!-- first column -->		
+    								<table class="column">
+    									<tr>
+    										<td class="padding">
+    											<table class="content">
+    												<tr>
+    													<td>
+    														<a href=""><img src="img/pexels-photo-274060.jpeg" alt="Sea" width="150" style="max-width:150px"></a>
+    													</td>
+    												</tr>
+    												<tr>
+    													<td style="padding: 10px;">
+    														<p style="font-size: 17px;font-weight: bold;">SEA</p>
+    														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    														<a href="#">Learn more ..</a>
+    													</td>
+    												</tr>
+    											</table>						
+    										</td>
+    									</tr>
+    								</table> 
+    								<!-- second column --> 
+    								<table class="column">
+    									<tr>
+    										<td class="padding">
+    											<table class="content">
+    												<tr>
+    													<td>
+    														<a href=""><img src="img/pexels-photo-239520.jpeg" alt="Country" width="150" style="max-width:150px"></a>
+    													</td>
+    												</tr>
+    												<tr>
+    													<td style="padding: 10px;">
+    														<p style="font-size: 17px;font-weight: bold;">COUNTRY</p>
+    														<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    														<a href="#">Learn more ..</a>
+    													</td>
+    												</tr>
+    											</table>						
+    										</td>
+    									</tr>
+    								</table> 
+    								<!-- third column -->  	
+    								<table class="column">
+    									<tr>
+    										<td class="padding">
+    											<table class="content">
+    												<tr>
+    													<td>
+    														<a href=""><img src="img/pexels-photo-289472.jpeg" alt="Lake" width="150" style="max-width:150px"></a>
+    													</td>
+    												</tr>
+    												<tr>
+    													<td style="padding: 10px;">
+    														<p style="font-size: 17px;font-weight: bold;">LAKE</p>
+    														<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur. </p>
+    														<a href="#">Learn more ..</a>
+    													</td>
+    												</tr>
+    											</table>						
+    										</td>
+    									</tr>
+    								</table> 						
+    							</td>
+    						</tr>
+    					</table>
+    				</td>
+    			</tr>
+
+    		</table>
+    	</div>
+    </center>
     
-    </body>
+</body>
 </html>
